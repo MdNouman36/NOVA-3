@@ -623,7 +623,7 @@ git cat-file -p a1b2c3d""",
         "story": "In a big company with 50,000 commits, finding that one change made by Sarah last Tuesday is impossible with plain 'git log'. Git's search filters let you slice through history like a laser: filter by `--author`, filter by date window (`--since` / `--until`), or filter only commits that touched a specific file path!",
         "problem": "Filter project commit log by author name using '--author', specify a calendar range using '--since' and '--until', and filter by file path using '-- <path>'.",
         "commands": """# 1. Filter by author name or email
-git log --author="Prajwal" --oneline
+git log --author="Nouman" --oneline
 
 # 2. Filter by date window
 git log --since="2026-01-01" --until="2026-11-14" --oneline
@@ -633,7 +633,7 @@ git log --oneline -- dsa-lab/programs/lab03_stack_operations.c""",
         "blocks": [
             {
                 "title": "Part 1: Filtering by Author Name & Email",
-                "code": "git log --author=\"Prajwal\" --oneline",
+                "code": "git log --author=\"Nouman\" --oneline",
                 "doing": "Filters commit history to show only changes authored by a specific team member.",
                 "how": [
                     "`--author`: Performs regex pattern matching on the author name and email fields.",

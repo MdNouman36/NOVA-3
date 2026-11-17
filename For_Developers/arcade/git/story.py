@@ -1545,7 +1545,7 @@ CHALLENGES_LOW = [
         "task": "Show the full commit history of this repository:",
         "valid": ["git log", "git lg", "git log --oneline", "git log -n 5"],
         "hint": "A 3-letter word meaning record or history log: git <subcommand>",
-        "output": "commit 4a8b1c9e8d2f10b7a6c5d4e3f2a1b0c9d8e7f6a5 (HEAD -> main)\nAuthor: Prajwal Chonnad <prajwal@example.com>\nDate:   Wed Nov 4 14:30:00 2026 +0530\n\n    add homepage layout\n\ncommit e2f7b10c9a4b8d7e6f5a3b2c1d0e9f8a7b6c5d4e\nAuthor: Prajwal Chonnad <prajwal@example.com>\nDate:   Wed Nov 4 10:15:22 2026 +0530\n\n    initial commit",
+        "output": "commit 4a8b1c9e8d2f10b7a6c5d4e3f2a1b0c9d8e7f6a5 (HEAD -> main)\nAuthor: Mohammed Nouman M N <nouman@example.com>\nDate:   Wed Nov 4 14:30:00 2026 +0530\n\n    add homepage layout\n\ncommit e2f7b10c9a4b8d7e6f5a3b2c1d0e9f8a7b6c5d4e\nAuthor: Mohammed Nouman M N <nouman@example.com>\nDate:   Wed Nov 4 10:15:22 2026 +0530\n\n    initial commit",
         "why": "git log lists every commit in reverse order (newest first). Each has a unique ID, author, date, and message."
     },
     {
@@ -1599,7 +1599,7 @@ CHALLENGES_LOW = [
         "task": "Display the latest commit's metadata and diff:",
         "valid": ["git show", "git show HEAD"],
         "hint": "Use the 4-letter subcommand that displays an object's contents: git <subcommand>",
-        "output": "commit 4a8b1c9 (HEAD -> main)\nAuthor: Prajwal Chonnad <prajwal@example.com>\nDate:   Wed Nov 4 14:30:00 2026 +0530\n\n    add homepage layout\n\ndiff --git a/index.html b/index.html\n--- a/index.html\n+++ b/index.html\n@@ -1,3 +1,6 @@\n+<header>Welcome</header>",
+        "output": "commit 4a8b1c9 (HEAD -> main)\nAuthor: Mohammed Nouman M N <nouman@example.com>\nDate:   Wed Nov 4 14:30:00 2026 +0530\n\n    add homepage layout\n\ndiff --git a/index.html b/index.html\n--- a/index.html\n+++ b/index.html\n@@ -1,3 +1,6 @@\n+<header>Welcome</header>",
         "why": "'git show' (or 'git show HEAD') presents the full details and diff of the most recent snapshot."
     }
 ]

@@ -1,61 +1,14 @@
 ================================================================================
-                                   ABOUT US
+                        ABOUT NOVA-3 & DEVELOPER
 ================================================================================
 
-WHO WE ARE & WHAT WE DO
---------------------------------------------------------------------------------
-NOVA-3 (Next-Gen Open Virtual Assistant (NOVA-3)) is an open-source, interactive terminal lab 
-companion created to help engineering students genuinely understand and master 
-their practical curriculum.
+NOVA-3 is an interactive, zero-dependency terminal lab companion designed for
+VTU 2025 Scheme CSE students to master Git, DSA in C, and Java OOP directly
+from the command line.
 
-Targeted at 3rd Semester Computer Science & Engineering students under the VTU 
-2025 Scheme, NOVA-3 covers Data Structures (Theory: 1BCS305 / Lab: 1BCSL306), Java OOP (1BCS302), and 
-Git Version Control (1BCSL307A). Instead of copying programs for manual marks, 
-students can interact with step-by-step memory models, read concise block-by-block 
-logic breakdowns, resolve emergency debugging bugs, and practice timed viva drills 
-with dynamically randomized questions.
-
-
-HOW THIS STARTED
---------------------------------------------------------------------------------
-The idea originated from PRAJWAL D CHONNAD — currently an intern at Vajravyuha 
-and a B.Tech Computer Science student. Being deeply passionate about music 
-production and DJing, Prajwal experienced firsthand how difficult and counter-
-intuitive it was to learn programming languages through conventional, rote-heavy 
-teaching methods. He envisioned an interactive, hands-on tool that makes learning 
-code intuitive rather than stressful.
-
-To bring the project to life, he collaborated with ADITYA GOTHE, his classmate 
-and the Founder of Vajravyuha.in. Aditya organized the core idea, restructured 
-the design, and engineered the modular terminal architecture to turn it into a 
-reliable, full-featured lab companion.
-
-
-THE CREATORS
---------------------------------------------------------------------------------
-• PRAJWAL D CHONNAD
-  - B.Tech Student (Computer Science & Engineering)
-  - Intern at Vajravyuha
-  - Music Producer & DJ
-  - LinkedIn : https://www.linkedin.com/in/prajwal-chonnad-4894a02b9
-  - Instagram: https://www.instagram.com/dj_pajju_ckd
-
-• ADITYA GOTHE
-  - Founder, Vajravyuha.in
-  - B.Tech Classmate (Computer Science & Engineering)
-  - Systems Architecture & Project Direction
-  - LinkedIn : https://www.linkedin.com/in/aditya-gothe5400
-  - Instagram: https://www.instagram.com/ascend.of.adi (Behind the scenes)
-
-• VAJRAVYUHA
-  - Website  : https://vajravyuha.in
-
-
-OUR MOTIVATION
---------------------------------------------------------------------------------
-We built this because we have lived through the same lab exam stress and viva 
-anxiety as our peers. We wanted to build something that actually helps students 
-learn with confidence.
-
-MADE BY THE STUDENTS FOR THE STUDENTS WITH LOVE ❤️
+DEVELOPER:
+- Name        : Mohammed Nouman M N
+- Department  : B.E. Computer Science & Engineering (AI & ML)
+- Institution : Dr. T. Thimmaiah Institute of Technology
+- GitHub      : https://github.com/MdNouman36/NOVA-3
 ================================================================================

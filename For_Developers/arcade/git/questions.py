@@ -955,7 +955,7 @@ GFH_STEP_CMD_QUESTIONS = {   1: [   {   'hint': 'Use the command that initialize
                       'staged files without changing the message.'},
            {   'hint': "Use the command that shows a single commit's full info and diff.",
                'output': 'commit 7f2b91c...\n'
-                         'Author: Prajwal <p@example.com>\n'
+                         'Author: Nouman <nouman@example.com>\n'
                          'Date:   Mon Nov 10 2026\n'
                          '\n'
                          '    feat: add user authentication\n'

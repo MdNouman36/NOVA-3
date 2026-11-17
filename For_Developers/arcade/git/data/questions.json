@@ -371,7 +371,7 @@
             "git show HEAD"
           ],
           "hint": "Use the command that shows a single commit's full info and diff.",
-          "output": "commit 7f2b91c...\nAuthor: Prajwal <p@example.com>\nDate:   Mon Nov 10 2026\n\n    feat: add user authentication\n\ndiff --git a/auth.py...",
+          "output": "commit 7f2b91c...\nAuthor: Nouman <nouman@example.com>\nDate:   Mon Nov 10 2026\n\n    feat: add user authentication\n\ndiff --git a/auth.py...",
           "why": "git show (or git show HEAD) displays the commit metadata plus the full diff of changes introduced by that commit."
         }
       ]

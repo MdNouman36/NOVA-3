@@ -151,7 +151,7 @@ GIT_COMMAND_RADAR_DB = [
     {"id":29,"cmd":"git bisect","aliases":["bisect","git bisect","bisect start","git bisect start"],"category":"SAFE","risk_score":1.0,"risk_title":"🟢 SAFE — BINARY SEARCH FOR BUGS","warning":"Binary-searches commit history to find which commit broke the code!","summary":"Checks out midpoint commits and asks you good or bad until the exact breaking commit is isolated.","detail":"O(log N) binary search through your commits. Git checks out midpoints automatically.","simulated_output":"$ git bisect start\n$ git bisect bad\n$ git bisect good v1.0\nBisecting: 6 revisions left to test (roughly 3 steps)\n[3a4b5c6] refactor(cache): switch to redis cluster","when_to_use":["When something worked last week but is broken now across dozens of commits."],"mistake_rescue":["1. Want to abort and return to normal?  git bisect reset"]},
     {"id":30,"cmd":"git clone","aliases":["clone","git clone"],"category":"SAFE","risk_score":0.0,"risk_title":"🟢 100% SAFE","warning":"Downloads a complete copy of a repository to your computer!","summary":"Copies an entire remote Git repository onto your local machine, with full history, all branches, and config.","detail":"Initializes a directory, sets up remote origin tracking, fetches all packfiles, checks out default branch.","simulated_output":"$ git clone https://github.com/organization/nova-project.git\nCloning into 'nova-project'...\nReceiving objects: 100% (184/184), 512.40 KiB | 2.45 MiB/s, done.","when_to_use":["When onboarding to a new project or setting up a repo on a new machine."],"mistake_rescue":["1. Cloned into the wrong folder? Simply delete the newly cloned directory and re-clone."]},
     {"id":31,"cmd":"git init","aliases":["init","git init","git init .","git init -b main","git init --initial-branch=main"],"category":"SAFE","risk_score":1.0,"risk_title":"🟢 SAFE & REPO CREATION","warning":"Creates a hidden '.git/' administrative directory. Safe, but do NOT run in your user root (C:\\Users) or Desktop!","summary":"Initializes a brand-new, empty Git repository in the current folder, creating the hidden '.git' metadata and object directory.","detail":"Sets up the internal repository skeleton inside '.git/': including 'objects/' (the object store for all commits/blobs), 'refs/heads/' (branch pointers), HEAD pointer file (pointing to your active branch), hooks, and local repository config. It does NOT delete or alter any existing files in your folder.","simulated_output":"$ git init\nInitialized empty Git repository in C:/Users/Student/Documents/my-project/.git/","when_to_use":["When starting a brand-new project from scratch, or when putting an existing project folder under Git version control for the first time.","Run it ONCE at the top-level root folder of your project (never inside subfolders!).","NOTE: You do NOT need to run 'git init' if you cloned a repository using 'git clone' (cloning already initializes Git!)."],"mistake_rescue":["1. WHAT IF YOU RAN 'git init' IN THE WRONG FOLDER? (e.g. your Desktop, Downloads, or entire C:\\Users directory):","   DO NOT PANIC! Git only created a single hidden folder named '.git'. None of your real personal files were modified, moved, or deleted.","2. How to undo 'git init' completely and remove Git tracking from the folder:","   • In PowerShell / Windows Terminal:","     Remove-Item -Recurse -Force .git","   • In Windows Command Prompt (cmd.exe):","     rmdir /s /q .git","   • In Git Bash / Linux / macOS:","     rm -rf .git","3. Boom! The folder is instantly back to being a normal everyday directory with zero Git tracking!"]},
-    {"id":32,"cmd":"git config","aliases":["config","git config","git config --list","git config --global user.name","git config --global user.email","git config --list --show-origin"],"category":"SAFE","risk_score":1.0,"risk_title":"🟢 SAFE & CONFIGURATION","warning":"Configures author identity, default branch, or custom shortcuts.","summary":"Gets, sets, or lists repository-level and global user configuration settings (author name, email, editor, line endings).","detail":"Reads or writes key-value pairs stored in '~/.gitconfig' (global), '.git/config' (local repo), or system-wide configuration files.","simulated_output":"$ git config --list\nuser.name=Prajwal Chonnad\nuser.email=prajwal@example.com\ninit.defaultbranch=main\ncore.editor=code --wait\ncore.autocrlf=true","when_to_use":["Run 'git config --global user.name' and 'user.email' when setting up Git for the first time on a new computer.","Run 'git config --list' to check all active resolved settings."],"mistake_rescue":["1. Made a typo in your name or email? Simply run the command again with the right value to overwrite it:","   git config --global user.name 'Your Name'","   git config --global user.email 'you@example.com'","2. To remove a configuration key:  git config --global --unset <key>"]},
+    {"id":32,"cmd":"git config","aliases":["config","git config","git config --list","git config --global user.name","git config --global user.email","git config --list --show-origin"],"category":"SAFE","risk_score":1.0,"risk_title":"🟢 SAFE & CONFIGURATION","warning":"Configures author identity, default branch, or custom shortcuts.","summary":"Gets, sets, or lists repository-level and global user configuration settings (author name, email, editor, line endings).","detail":"Reads or writes key-value pairs stored in '~/.gitconfig' (global), '.git/config' (local repo), or system-wide configuration files.","simulated_output":"$ git config --list\nuser.name=Mohammed Nouman M N\nuser.email=nouman@example.com\ninit.defaultbranch=main\ncore.editor=code --wait\ncore.autocrlf=true","when_to_use":["Run 'git config --global user.name' and 'user.email' when setting up Git for the first time on a new computer.","Run 'git config --list' to check all active resolved settings."],"mistake_rescue":["1. Made a typo in your name or email? Simply run the command again with the right value to overwrite it:","   git config --global user.name 'Your Name'","   git config --global user.email 'you@example.com'","2. To remove a configuration key:  git config --global --unset <key>"]},
     {"id":33,"cmd":"git fetch","aliases":["fetch","git fetch","git fetch origin","git fetch --all","git fetch --prune"],"category":"SAFE","risk_score":1.0,"risk_title":"🟢 100% SAFE REMOTE INSPECTION","warning":"100% SAFE. Downloads remote commits and branches without touching or modifying your local working files!","summary":"Downloads objects, commits, and branch refs from a remote repository (GitHub/GitLab) without merging them into your local branches.","detail":"Updates remote-tracking branches (like 'origin/main') in your local '.git' database. Does NOT alter your working directory files or staging area, making it far safer than 'git pull' for previewing remote work.","simulated_output":"$ git fetch origin\nFrom https://github.com/organization/project\n * [new branch]      feature-payment -> origin/feature-payment\n   1a2b3c4..5d6e7f8  main            -> origin/main","when_to_use":["When you want to see what teammates have pushed to GitHub WITHOUT immediately merging or creating conflicts in your local code.","Run before 'git diff main origin/main' to compare incoming changes before integrating."],"mistake_rescue":["1. 'git fetch' is completely safe and read-only for your working directory files.","2. It only updates your remote tracking branches (like origin/main). Nothing in your code was changed."]}
 
 ]
@@ -425,7 +425,7 @@ def analyze_universal_git_command(user_query):
         score = 1.0
         warning = "Configures author identity, default branch, or custom shortcuts."
         if "--list" in args_str:
-            simulated_output = f"$ git {cmd_str}\nuser.name=Prajwal Chonnad\nuser.email=prajwal@example.com\ninit.defaultbranch=main\ncore.editor=code --wait\ncore.autocrlf=true"
+            simulated_output = f"$ git {cmd_str}\nuser.name=Mohammed Nouman M N\nuser.email=nouman@example.com\ninit.defaultbranch=main\ncore.editor=code --wait\ncore.autocrlf=true"
         else:
             simulated_output = f"$ git {cmd_str}\n(Configuration updated in Git config file)"
         when_to_use = [
@@ -503,7 +503,7 @@ def analyze_universal_git_command(user_query):
             simulated_output = (
                 f"$ git {cmd_str}\n"
                 "commit 9b8c7d6e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c (HEAD -> main)\n"
-                "Author: Prajwal Chonnad <prajwal@example.com>\n"
+                "Author: Mohammed Nouman M N <nouman@example.com>\n"
                 "Date:   Fri Nov 14 10:00:00 2026 +0530\n\n"
                 "    feat(dsa): add AVL tree visualizer\n\n"
                 "commit 4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b\n"
@@ -576,8 +576,8 @@ def analyze_universal_git_command(user_query):
             f"$ git {cmd_str}\n"
             "a1b2c3d4 (Alice    2026-10-12 14:32:01 +0530  12) def calculate_tax(income):\n"
             "e5f6a7b8 (Bob      2026-11-01 09:15:20 +0530  13)     rate = 0.30\n"
-            "9c0d1e2f (Prajwal  2026-11-14 10:00:00 +0530  14)     if income > 1000000:\n"
-            "9c0d1e2f (Prajwal  2026-11-14 10:00:00 +0530  15)         rate = 0.35  # updated bracket\n"
+            "9c0d1e2f (Nouman  2026-11-14 10:00:00 +0530  14)     if income > 1000000:\n"
+            "9c0d1e2f (Nouman  2026-11-14 10:00:00 +0530  15)         rate = 0.35  # updated bracket\n"
             "e5f6a7b8 (Bob      2026-11-01 09:15:20 +0530  16)     return income * rate"
         )
         when_to_use = [
@@ -593,7 +593,7 @@ def analyze_universal_git_command(user_query):
         simulated_output = (
             f"$ git {cmd_str}\n"
             "commit 9b8c7d6e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c (HEAD -> main)\n"
-            "Author: Prajwal Chonnad <prajwal@example.com>\n"
+            "Author: Mohammed Nouman M N <nouman@example.com>\n"
             "Date:   Fri Nov 14 10:00:00 2026 +0530\n\n"
             "    feat(dsa): add AVL tree visualizer with rotation counter\n\n"
             "diff --git a/src/avl_tree.py b/src/avl_tree.py\n"
@@ -631,8 +631,8 @@ def analyze_universal_git_command(user_query):
         simulated_output = (
             f"$ git {cmd_str}\n"
             "tree 4b825dc642cb6eb9a060e54bf8d69288fbee4904\n"
-            "author Prajwal Chonnad <prajwal@example.com> 1763059200 +0530\n"
-            "committer Prajwal Chonnad <prajwal@example.com> 1763059200 +0530\n\n"
+            "author Mohammed Nouman M N <nouman@example.com> 1763059200 +0530\n"
+            "committer Mohammed Nouman M N <nouman@example.com> 1763059200 +0530\n\n"
             "feat(dsa): add AVL tree visualizer"
         )
         when_to_use = [
@@ -749,7 +749,7 @@ def analyze_universal_git_command(user_query):
         warning = "Summarizes git log by author — shows contributor stats!"
         simulated_output = (
             f"$ git {cmd_str}\n"
-            "Prajwal Chonnad (12):\n"
+            "Mohammed Nouman M N (12):\n"
             "      feat(dsa): add AVL tree visualizer\n"
             "      fix(java): resolve thread deadlock\n"
             "Alice Kumar (5):\n"
@@ -1379,7 +1379,7 @@ def analyze_universal_git_command(user_query):
         simulated_output = (
             f"$ git {cmd_str}\n"
             "gpg: Signature made Fri Nov 14 10:00:00 2026 IST\n"
-            "gpg: Good signature from \"Prajwal Chonnad <prajwal@example.com>\""
+            "gpg: Good signature from \"Mohammed Nouman M N <nouman@example.com>\""
         )
         when_to_use = [
             "To verify that a commit was signed by the expected GPG key.",
