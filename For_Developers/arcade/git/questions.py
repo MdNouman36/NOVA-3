@@ -1293,8 +1293,8 @@ GFH_STEP_CMD_QUESTIONS = {   1: [   {   'hint': 'Use the command that initialize
 
 _INTERNET_STATUS = None        # None = not checked yet; True/False after first check
 _QUESTIONS_JSON_URLS = [
-    "https://raw.githubusercontent.com/Ghost5400/OILS-3/main/arcade/git/data/questions.json",
-    "https://raw.githubusercontent.com/Ghost5400/OILS-3/main/questions.json",
+    "https://raw.githubusercontent.com/MdNouman36/NOVA-3/main/arcade/git/data/questions.json",
+    "https://raw.githubusercontent.com/MdNouman36/NOVA-3/main/questions.json",
 ]
 _REMOTE_BANK = None            # Cached parsed remote questions.json
 _LOCAL_BANK = None             # Cached parsed local questions.json
@@ -1339,7 +1339,7 @@ def _get_local_bank():
 
 def _fetch_remote_bank():
     """
-    Downloads questions.json from public GitHub repo (tries OILS-3, falls back to old repo URL).
+    Downloads questions.json from public GitHub repo (tries NOVA-3, falls back to old repo URL).
     Returns the parsed dict or None on any failure.
     Fetched at most once per session.
     """
@@ -1350,7 +1350,7 @@ def _fetch_remote_bank():
         try:
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "OILS-3/1.0"}
+                headers={"User-Agent": "NOVA-3/1.0"}
             )
             with urllib.request.urlopen(req, timeout=4) as resp:
                 data = json.loads(resp.read().decode("utf-8"))

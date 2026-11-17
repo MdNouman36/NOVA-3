@@ -1,6 +1,6 @@
 # 🌳 Data Structures & Algorithms Lab (DSA) — 1BCSL306 (3rd Sem)
 
-Welcome to the **DSA Lab** module of **OILS-3** (*Oops, I Learnt Something!*), fully updated for the **VTU 2025 Scheme**.
+Welcome to the **DSA Lab** module of **NOVA-3** (*Next-Gen Open Virtual Assistant (NOVA-3)*), fully updated for the **VTU 2025 Scheme**.
 
 > **Status:** ✅ All 12 Lab Experiments Verified, Bug-Free, and Ready to Compile!
 

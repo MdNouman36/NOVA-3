@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# OILS-3: Oops, I Learnt Something! (VTU 2025 Scheme - 3rd Sem CSE Companion)
+# NOVA-3: Next-Gen Open Virtual Assistant (NOVA-3) (VTU 2025 Scheme - 3rd Sem CSE Companion)
 # Cross-Platform Launcher for macOS, Linux, and Mobile Termux / iSH
 # ==============================================================================
 
@@ -20,7 +20,7 @@ else
     echo ""
     echo "👉 Options to run without installing Python locally:"
     echo "   1. Open via GitHub Codespaces (1-click browser terminal):"
-    echo "      https://github.com/Ghost5400/OILS-3"
+    echo "      https://github.com/MdNouman36/NOVA-3"
     echo "   2. Install Python 3 via package manager:"
     echo "      - macOS: brew install python"
     echo "      - Ubuntu/Debian: sudo apt update && sudo apt install python3"

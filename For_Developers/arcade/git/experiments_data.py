@@ -1,5 +1,5 @@
 """
-OILS-3: GIT LAB DATA (VTU 2025 Scheme - 1BCSL307A)
+NOVA-3: GIT LAB DATA (VTU 2025 Scheme - 1BCSL307A)
 Comprehensive End-to-End Program Explanations:
 1. Two-Tier Overview (High-level Story in plain English)
 2. Complete Step-by-Step Functional Blocks covering every command from first line to last line

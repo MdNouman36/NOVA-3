@@ -1,5 +1,5 @@
 """
-test_smoke.py — Smoke and safety net tests for OILS-3.
+test_smoke.py — Smoke and safety net tests for NOVA-3.
 
 Runs with:
     python -m unittest discover -s For_Developers/tests
@@ -35,7 +35,7 @@ from arcade.session import (
 from arcade.viva_bank import VIVA_PRACTICE_SETS
 
 
-class TestOILS3Smoke(unittest.TestCase):
+class TestNOVA3Smoke(unittest.TestCase):
 
     def test_experiment_files_exist(self):
         """1. Every file path in DSA_EXPERIMENTS, JAVA_EXPERIMENTS, and GIT_EXPERIMENTS exists on disk."""

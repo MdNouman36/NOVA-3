@@ -4,12 +4,12 @@
 
 WHO WE ARE & WHAT WE DO
 --------------------------------------------------------------------------------
-OILS-3 (Oops, I Learnt Something!) is an open-source, interactive terminal lab 
+NOVA-3 (Next-Gen Open Virtual Assistant (NOVA-3)) is an open-source, interactive terminal lab 
 companion created to help engineering students genuinely understand and master 
 their practical curriculum.
 
 Targeted at 3rd Semester Computer Science & Engineering students under the VTU 
-2025 Scheme, OILS-3 covers Data Structures (Theory: 1BCS305 / Lab: 1BCSL306), Java OOP (1BCS302), and 
+2025 Scheme, NOVA-3 covers Data Structures (Theory: 1BCS305 / Lab: 1BCSL306), Java OOP (1BCS302), and 
 Git Version Control (1BCSL307A). Instead of copying programs for manual marks, 
 students can interact with step-by-step memory models, read concise block-by-block 
 logic breakdowns, resolve emergency debugging bugs, and practice timed viva drills 

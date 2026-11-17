@@ -554,7 +554,7 @@ def mode_git_studio():
             done = "✅" if f"GIT-{exp['num']}" in _SESSION["experiments_done"] else "  "
             print(f"  {done} {Color.CYAN}[{exp['num']:02d}]{Color.RESET} {exp['title']}")
 
-        print(f"\n  {Color.DIM}[0]  ⬅️  Back to Master OILS-3 Hub{Color.RESET}\n")
+        print(f"\n  {Color.DIM}[0]  ⬅️  Back to Master NOVA-3 Hub{Color.RESET}\n")
 
         choice = prompt_input(f"{Color.BOLD}Select [01 - 12, CL, SB, DR, VG, 0]: {Color.RESET}").strip().upper()
 

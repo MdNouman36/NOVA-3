@@ -1,1 +1,1 @@
-"""Arcade game engine modules for OILS-3."""
+"""Arcade game engine modules for NOVA-3."""

@@ -44,14 +44,14 @@ def _configure_console():
                 creationflags=subprocess.CREATE_NEW_CONSOLE,
                 cwd=SCRIPT_DIR
             )
-            print("\n\033[92m[*] Launching 'OILS-3: Master Arcade Hub' in a new dedicated window! 🚀\033[0m\n")
+            print("\n\033[92m[*] Launching 'NOVA-3: Master Arcade Hub' in a new dedicated window! 🚀\033[0m\n")
             sys.exit(0)
         except Exception:
             pass
 
     if sys.platform == "win32":
         try:
-            os.system("title 🎮 OILS-3: Oops, I Learnt Something! (3rd Sem Master Arcade)")
+            os.system("title 🎮 NOVA-3: Next-Gen Open Virtual Assistant (NOVA-3) (3rd Sem Master Arcade)")
             os.system("mode con: cols=112 lines=42 >nul 2>&1")
         except Exception:
             pass

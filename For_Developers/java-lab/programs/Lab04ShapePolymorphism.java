@@ -1,6 +1,6 @@
 /*
  * ==============================================================================
- * OILS-3: OOPS WITH JAVA (VTU 2025 Scheme - 1BCS302)
+ * NOVA-3: OOPS WITH JAVA (VTU 2025 Scheme - 1BCS302)
  * Experiment 04: Runtime Polymorphism and Method Overriding
  * ==============================================================================
  *

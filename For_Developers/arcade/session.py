@@ -19,7 +19,7 @@ except (ImportError, ValueError):
     from . import core as _core_mod  # type: ignore
     from .dialogues import print_dialogue  # type: ignore
 
-DB_PATH = os.path.join(PROJECT_ROOT, "oils_local_db.json")
+DB_PATH = os.path.join(PROJECT_ROOT, "nova_local_db.json")
 
 _SESSION = {
     "experiments_done": [],
@@ -383,7 +383,7 @@ def _end_of_session_summary():
     trophies_unlocked = len(_SESSION.get("trophies", []) or _SESSION.get("badges", []))
 
     print(f"\n{Color.CYAN}{Color.BOLD}{'═'*74}{Color.RESET}")
-    print(f"{Color.CYAN}{Color.BOLD}  🎓 LEARNING SESSION SUMMARY — OILS-3 LAB COMPANION{Color.RESET}")
+    print(f"{Color.CYAN}{Color.BOLD}  🎓 LEARNING SESSION SUMMARY — NOVA-3 LAB COMPANION{Color.RESET}")
     print(f"{Color.CYAN}{Color.BOLD}{'═'*74}{Color.RESET}\n")
 
     print_dialogue("general")
@@ -424,7 +424,7 @@ def _show_trophy_case():
     """Displays the educational milestone cabinet."""
     clear_screen()
     print(f"\n{Color.MAGENTA}{Color.BOLD}{'═'*78}{Color.RESET}")
-    print("  🏆 OILS-3 EDUCATIONAL MILESTONES & SYLLABUS MASTERY")
+    print("  🏆 NOVA-3 EDUCATIONAL MILESTONES & SYLLABUS MASTERY")
     print(f"{Color.MAGENTA}{Color.BOLD}{'═'*78}{Color.RESET}")
     _show_session_header()
 
@@ -453,10 +453,14 @@ BANNER_ART = r"""
   \____/|___|_____|____/      |____/
 """
 
-BANNER = f"""{Color.CYAN}{Color.BOLD}{BANNER_ART}{Color.RESET}
-{Color.YELLOW}{Color.BOLD}        🚀 Oops, I Learnt Something! — 3rd Sem Engineering, An Interactive Game to Crack Your Labs (VTU 2025 Scheme)
-{Color.DIM}        Git (1BCSL307A) · DSA Lab (1BCSL306) · Java OOP Lab (1BCS302){Color.RESET}
-"""
+BANNER = rf\"\"\"
+{Color.CYAN}{Color.BOLD}
+ _   _  _____  _   _    _          _____ 
+| \ | ||  _  || | | |  / \        |___ / 
+|  \| || | | || | | | / _ \  _____  |_ \ 
+| |\  || |_| |\ \_/ // ___ \|_____|___) |
+\_| \_/ \___/  \___//_/   \_\     |____/ 
+{Color.RESET}\"\"\"
 
 
 

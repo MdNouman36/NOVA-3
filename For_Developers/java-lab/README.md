@@ -1,6 +1,6 @@
 # ☕ Object-Oriented Programming with Java Lab — 1BCS302 (3rd Sem)
 
-Welcome to the **Java Lab** module of **OILS-3** (*Oops, I Learnt Something!*), fully aligned with the **VTU 2025 Scheme**.
+Welcome to the **Java Lab** module of **NOVA-3** (*Next-Gen Open Virtual Assistant (NOVA-3)*), fully aligned with the **VTU 2025 Scheme**.
 
 > **Status:** ✅ All 10 Lab Experiments Verified, Standards-Compliant, and Ready to Compile!
 

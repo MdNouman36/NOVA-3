@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "name": "OILS-3",
-  "description": "Question bank for OILS-3: Oops, I Learnt Something! (3rd Sem Engineering Edition).",
+  "name": "NOVA-3",
+  "description": "Question bank for NOVA-3: Next-Gen Open Virtual Assistant (NOVA-3) (3rd Sem Engineering Edition).",
   "steps": {
     "1": {
       "topic": "What is Git, why version control, git init, the .git folder",

@@ -1,6 +1,6 @@
 # pyright: reportMissingImports=false
 """
-arcade.dialogues — Context-Aware Dialogue Engine for OILS-3.
+arcade.dialogues — Context-Aware Dialogue Engine for NOVA-3.
 Provides 40+ authentic, non-AI-slop 3rd-sem engineering student banter lines
 rotated via no-repeat shuffle decks across Hub, Git, DSA, Java, and Viva screens.
 """

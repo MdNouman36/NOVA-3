@@ -1,6 +1,6 @@
 /*
  * ==============================================================================
- * OILS-3: DATA STRUCTURES LABORATORY (VTU 2025 Scheme - 1BCSL306)
+ * NOVA-3: DATA STRUCTURES LABORATORY (VTU 2025 Scheme - 1BCSL306)
  * Experiment 04: Printer Queue Simulation Using an Array
  * ==============================================================================
  *

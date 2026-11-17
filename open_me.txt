@@ -5,16 +5,16 @@
  | |__| || | | |___ ___) |_____|___) | |  _  | |___| |___|  __/| |___|  _ < 
   \____/ |_| |_____|____/      |____/  |_| |_|_____|_____|_|   |_____|_| \_\
 
-   OILS-3: Oops, I Learnt Something! (VTU 2025 Scheme - 3rd Sem CSE)
+   NOVA-3: Next-Gen Open Virtual Assistant (NOVA-3) (VTU 2025 Scheme - 3rd Sem CSE)
 ================================================================================
 📅 LAST UPDATED : November 14, 2026
 🎓 TARGET BRANCH : Computer Science & Engineering (CSE)
 🏛️ UNIVERSITY   : Visvesvaraya Technological University (VTU)
 📋 SYLLABUS      : 2025 Scheme (3rd Semester B.Tech / B.E.)
-⭐ GITHUB REPO   : https://github.com/Ghost5400/OILS-3
+⭐ GITHUB REPO   : https://github.com/MdNouman36/NOVA-3
 ================================================================================
 
-👋 WELCOME TO OILS-3!
+👋 WELCOME TO NOVA-3!
 The ultimate interactive terminal lab companion built specifically for VTU 
 3rd Semester Computer Science engineering students. No boring theory walls, 
 no robotic memorization — learn every lab experiment end-to-end with visual 
@@ -66,14 +66,14 @@ You can run this full terminal arcade on your smartphone without a laptop!
 A) Android (via Termux - Free on F-Droid / GitHub):
    1. Open Termux and paste this quick one-liner:
          pkg update && pkg install git python -y
-         git clone https://github.com/Ghost5400/OILS-3.git
-         cd OILS-3 && python play.py
+         git clone https://github.com/MdNouman36/NOVA-3.git
+         cd NOVA-3 && python play.py
 
 B) iOS / iPad (via iSH Shell or a-Shell from App Store):
    1. Open iSH Shell and run:
          apk add python3 git
-         git clone https://github.com/Ghost5400/OILS-3.git
-         cd OILS-3 && python3 play.py
+         git clone https://github.com/MdNouman36/NOVA-3.git
+         cd NOVA-3 && python3 play.py
 
 --------------------------------------------------------------------------------
 🌐 OPTION 4: ZERO INSTALLATION IN BROWSER (ANY DEVICE VIA CLOUD TERMINAL)
@@ -82,10 +82,10 @@ Don't want to install Python or anything on your computer or phone?
 You can run the genuine Linux terminal version directly inside your web browser:
 
 1. Visit our GitHub repository:
-      https://github.com/Ghost5400/OILS-3
+      https://github.com/MdNouman36/NOVA-3
 2. Click the green "Code" button -> select "Codespaces" tab -> "Create codespace".
 3. A real terminal opens right in your browser (Chrome/Safari/Edge/Firefox) and 
-   automatically starts OILS-3! Zero setup required.
+   automatically starts NOVA-3! Zero setup required.
 
 
 ================================================================================
@@ -152,7 +152,7 @@ If this interactive companion helped you understand your lab experiments,
 crack your code executions, or ace your viva without fear:
 
 ⭐ PLEASE GIVE A STAR TO THE REPOSITORY ON GITHUB! ⭐
-👉 https://github.com/Ghost5400/OILS-3
+👉 https://github.com/MdNouman36/NOVA-3
 
 It takes less than 5 seconds and helps other VTU engineering students discover 
 this free learning companion. Share it with your classmates and lab batchmates!

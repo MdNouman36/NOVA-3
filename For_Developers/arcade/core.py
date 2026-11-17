@@ -1,12 +1,12 @@
 """
-arcade.core — Shared terminal utilities and formatting for OILS-3.
+arcade.core — Shared terminal utilities and formatting for NOVA-3.
 """
 import os
 import sys
 import time
 import random
 
-# Absolute project root directory: C:\...\OILS-3
+# Absolute project root directory: C:\...\NOVA-3
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Stubs populated by arcade.session
