@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+play.py.bak
+
+# Local device database (your laptop is your database)
+oils_local_db.json
+.oils_local_db.json
+
+
+

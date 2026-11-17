@@ -1,0 +1,13 @@
+{
+  "name": "OILS-3: VTU 2025 Scheme CSE Lab Companion",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postAttachCommand": "python play.py"
+}
+

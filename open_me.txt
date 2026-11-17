@@ -1,0 +1,164 @@
+================================================================================
+   ____ _____ _     ____        _____   _   _ _____ _     ____  _____ ____  
+  / __ \_   _| |   / ___|      |___ /  | | | | ____| |   |  _ \| ____|  _ \ 
+ | |  | || | | |   \___ \ _____  |_ \  | |_| |  _| | |   | |_) |  _| | |_) |
+ | |__| || | | |___ ___) |_____|___) | |  _  | |___| |___|  __/| |___|  _ < 
+  \____/ |_| |_____|____/      |____/  |_| |_|_____|_____|_|   |_____|_| \_\
+
+   OILS-3: Oops, I Learnt Something! (VTU 2025 Scheme - 3rd Sem CSE)
+================================================================================
+📅 LAST UPDATED : November 14, 2026
+🎓 TARGET BRANCH : Computer Science & Engineering (CSE)
+🏛️ UNIVERSITY   : Visvesvaraya Technological University (VTU)
+📋 SYLLABUS      : 2025 Scheme (3rd Semester B.Tech / B.E.)
+⭐ GITHUB REPO   : https://github.com/Ghost5400/OILS-3
+================================================================================
+
+👋 WELCOME TO OILS-3!
+The ultimate interactive terminal lab companion built specifically for VTU 
+3rd Semester Computer Science engineering students. No boring theory walls, 
+no robotic memorization — learn every lab experiment end-to-end with visual 
+intuition, ASCII memory sandboxes, disaster recoveries, and viva drills!
+
+
+================================================================================
+📂 REPOSITORY STRUCTURE (WHAT YOU SEE IN THIS FOLDER)
+================================================================================
+To keep things super clean and non-intimidating for students, the main folder 
+contains ONLY direct launchers and info files:
+
+• play.bat        -> Double-click to launch on Windows (Easiest!)
+• play.sh         -> Launch script for macOS, Linux, and Mobile terminals
+• play.py         -> Python entry point
+• open_me.txt     -> Quickstart guide & syllabus catalog (this file)
+• about_us.txt    -> The creators & project origin
+• For_Developers/ -> Internal engines, source code, lab programs & docs
+
+
+================================================================================
+🚀 HOW TO RUN THIS INTERACTIVE COMPANION ON YOUR DEVICE
+================================================================================
+
+💻 OPTION 1: ON WINDOWS LAPTOP / PC (EASIEST)
+--------------------------------------------------------------------------------
+1. Double-click the file named:
+      play.bat
+   (Or open Command Prompt / PowerShell in this folder and run: .\play.bat)
+
+2. If you prefer running directly with Python:
+      python play.py
+
+--------------------------------------------------------------------------------
+🍎 OPTION 2: ON macOS & LINUX LAPTOP / PC
+--------------------------------------------------------------------------------
+1. Open your Terminal inside this folder.
+2. Run the launcher script:
+      chmod +x play.sh
+      ./play.sh
+
+   (Or run directly: python3 play.py)
+
+--------------------------------------------------------------------------------
+📱 OPTION 3: ON MOBILE DEVICES (ANDROID / iOS) VIA TERMINAL
+--------------------------------------------------------------------------------
+You can run this full terminal arcade on your smartphone without a laptop!
+
+A) Android (via Termux - Free on F-Droid / GitHub):
+   1. Open Termux and paste this quick one-liner:
+         pkg update && pkg install git python -y
+         git clone https://github.com/Ghost5400/OILS-3.git
+         cd OILS-3 && python play.py
+
+B) iOS / iPad (via iSH Shell or a-Shell from App Store):
+   1. Open iSH Shell and run:
+         apk add python3 git
+         git clone https://github.com/Ghost5400/OILS-3.git
+         cd OILS-3 && python3 play.py
+
+--------------------------------------------------------------------------------
+🌐 OPTION 4: ZERO INSTALLATION IN BROWSER (ANY DEVICE VIA CLOUD TERMINAL)
+--------------------------------------------------------------------------------
+Don't want to install Python or anything on your computer or phone?
+You can run the genuine Linux terminal version directly inside your web browser:
+
+1. Visit our GitHub repository:
+      https://github.com/Ghost5400/OILS-3
+2. Click the green "Code" button -> select "Codespaces" tab -> "Create codespace".
+3. A real terminal opens right in your browser (Chrome/Safari/Edge/Firefox) and 
+   automatically starts OILS-3! Zero setup required.
+
+
+================================================================================
+📚 SUBJECTS & EXPERIMENTS COVERED (VTU 2025 SCHEME - 3RD SEM CSE)
+================================================================================
+
+1. 💻 DATA STRUCTURES AND APPLICATIONS (VTU Code: 1BCSL306 / Theory: 1BCS305)
+   -----------------------------------------------------------------------------
+   Total Experiments : 12 Full Programs + Interactive ASCII Sandboxes
+   - Exp 01: Library Book Management (Structures & Dynamic Memory)
+   - Exp 02: Sparse Matrix Triplet Representation, Addition & Transpose
+   - Exp 03: Stack Operations Using an Array (PUSH, POP, PEEK)
+   - Exp 04: Printer Queue Simulation Using an Array
+   - Exp 05: Polynomial Addition Using Circular Linked List with Header
+   - Exp 06: Binary Tree Creation & Traversals (Level-Order via Queue)
+   - Exp 07: Infix-to-Postfix Conversion with Bracket Validation
+   - Exp 08: Student Record Management Using Singly Linked List (SLL)
+   - Exp 09: Manufacturing Parts Inventory Using Hash Table & Linear Probing
+   - Exp 10: Hierarchical Numeric Data Using Binary Search Tree (BST)
+   - Exp 11: Employee Record Management Using Hash Table & Linear Probing
+   - Exp 12: City Connectivity Using Graphs & Depth-First Search (DFS)
+
+2. ☕ OBJECT-ORIENTED PROGRAMMING WITH JAVA (VTU Code: 1BCS302)
+   -----------------------------------------------------------------------------
+   Total Experiments : 10 Full Programs + OOP Visualizers
+   - Lab 01: Matrix Addition of Order N
+   - Lab 02: Stack Class and Object Encapsulation
+   - Lab 03: Student Class and Array of Objects
+   - Lab 04: Runtime Polymorphism and Method Overriding (Shape)
+   - Lab 05: Resizable Interface Implementation
+   - Lab 06: User-Defined Packages (mypack)
+   - Lab 07: Custom Exception Handling (Division By Zero)
+   - Lab 08: Multithreading and Concurrent Execution
+   - Lab 09: Java Enumerations and valueOf()
+   - Lab 10: Wrapper Classes and Autoboxing / Unboxing
+
+3. 🌿 GIT & GITHUB VERSION CONTROL (VTU Code: 1BCSL307A)
+   -----------------------------------------------------------------------------
+   Total Experiments : 12 Lab Experiments + Full Interactive Command Sandbox
+   - Exp 01: Repository Setup, Config & Basic Commits
+   - Exp 02: Creating, Switching & Merging Branches
+   - Exp 03: Stashing Work in Progress
+   - Exp 04: Cloning Remote Repositories & Tracking
+   - Exp 05: Fetch & Rebase vs Merge
+   - Exp 06: Merge with Custom Commit Message & No-Fast-Forward
+   - Exp 07: Git Tags & Releases
+   - Exp 08: Cherry-Picking Specific Commits
+   - Exp 09: Deep Commit Inspection (Show & Cat-File)
+   - Exp 10: Filtering Commit History by Author, Date & Path
+   - Exp 11: Commit History Formatting & Formats
+   - Exp 12: Undoing Changes Safely (Revert vs Reset)
+
+4. 🎯 COMPREHENSIVE VIVA DRILL VAULT (90+ Questions)
+   -----------------------------------------------------------------------------
+   - 6 Practice Sets with dynamically randomized option shuffling across A/B/C/D
+   - Timed Gauntlet mode with immediate examiner rationales & feedback
+
+
+================================================================================
+⭐ HELP SUPPORT THIS OPEN-SOURCE STUDENT PROJECT!
+================================================================================
+
+If this interactive companion helped you understand your lab experiments, 
+crack your code executions, or ace your viva without fear:
+
+⭐ PLEASE GIVE A STAR TO THE REPOSITORY ON GITHUB! ⭐
+👉 https://github.com/Ghost5400/OILS-3
+
+It takes less than 5 seconds and helps other VTU engineering students discover 
+this free learning companion. Share it with your classmates and lab batchmates!
+
+================================================================================
+            Made with ❤️ by the Students, for the Students!
+             PRAJWAL D CHONNAD  &  ADITYA GOTHE (Vajravyuha)
+================================================================================
+

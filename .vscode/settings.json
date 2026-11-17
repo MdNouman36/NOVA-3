@@ -1,0 +1,16 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/For_Developers",
+    "${workspaceFolder}/For_Developers/arcade",
+    "${workspaceFolder}"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/For_Developers",
+    "${workspaceFolder}/For_Developers/arcade",
+    "${workspaceFolder}"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  }
+}
